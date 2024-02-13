@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612905383_90-p-krasnii-fon-dlya-kalendarya-102.jpg");
+    background-size: cover;
+}
+
+  .text1 {
+    font-size: 300%;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    .text {
+        margin-top:21%;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 24%;
+        margin-right: 23%;
+    }
+
+.text3{
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: bisque;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index3.css">
+
+    <style>
+        #yes {
+            position: absolute;
+            left: 47%;
+            top: 67%;
+            transform: translate(-50%, -50%);
+            font-size: 300%;
+            font-weight: bold;
+            color: rgb(7, 7, 7);
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <p class="text1">Но чтобы получить подарок надо ответить на один очень важный вопрос:</p>
+        <p class="text1">Любишь ли ты меня?</p>
+    </div>
+    <div class="text2">
+        <a class="text3" href="index4.html">НЕТ</a>
+    </div>
+    <div id="yes">ДА</div>
+
+    <script>
+        const yes = document.getElementById('yes');
+
+        yes.addEventListener('mouseover', () => {
+            // Получить случайные координаты для слова "ДА"
+            const randomX = Math.random() * window.innerWidth;
+            const randomY = Math.random() * window.innerHeight;
+
+            // Переместить слово "ДА" в новые координаты
+            yes.style.left = `${randomX}px`;
+            yes.style.top = `${randomY}px`;
+        });
+    </script>
+</body>
+
+</html>
